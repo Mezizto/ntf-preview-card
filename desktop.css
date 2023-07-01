@@ -4,10 +4,6 @@
     font-family: "outfit", serif;
 }
 
-img {
-    max-width: 100%;
-}
-
 body {
     background-color: hsl(217, 54%, 11%);
     display: flex;
