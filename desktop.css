@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-html {
-    background-color: hsl(217, 54%, 11%);
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+:root {
     font-family: "outfit", serif;
-    
 }
 
 img {
@@ -14,15 +9,18 @@ img {
 }
 
 body {
+    background-color: hsl(217, 54%, 11%);
     display: flex;
     width: 355px; 
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 .container {
+    box-sizing: border-box;
     background-color: hsl(216, 50%, 16%);
     padding: 20px;
     border-radius: 20px;
